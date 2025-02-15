@@ -4,6 +4,7 @@ Welcome to **Obscura Academy** – an interactive learning platform for **crypto
 This project was built as part of **Kent Hack Enough 2025** hackathon.
 
 🔗 **Live Demo:** [Obscura Academy](https://obscura-academy.streamlit.app/)
+
 🚀 **Built with:** Python | Streamlit
 
 ## Features
