@@ -99,8 +99,8 @@ st.write(
 image_comparison(
     img1="assets/website-html.png",
     img2="assets/website-screenshot.png",
-    label1="Website View",
-    label2="HTML Source Code",
+    label1="HTML Source Code",
+    label2="Website View",
 )
 
 st.subheader("What are Developer Tools?")
