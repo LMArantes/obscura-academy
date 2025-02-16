@@ -12,7 +12,7 @@ openai_api_key = os.getenv("OPENAI_API_KEY")  # Securely load API key
 client = openai.OpenAI(api_key=openai_api_key)
 
 st.title("🔮 Obscura Academy - The Oracle")
-st.write("Ask me anything about cryptography, or request a challenge.")
+st.write("Ask me anything about cryptography, or request a challenge if you are ready.")
 
 # Define Pre-made Challenges (Vigenère & Caesar)
 challenges = {
@@ -175,7 +175,7 @@ for message in st.session_state["messages"]:
     st.write(f"**{role}**: {message['content']}")
 
 # User input
-user_input = st.text_input("Ask The Oracle or request a challenge:")
+user_input = st.text_input("Talk to the Oracle:")
 
 if user_input:
     # Add user message to chat history
