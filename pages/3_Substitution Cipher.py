@@ -24,3 +24,30 @@ if text:
         substitution_key[char] if char in substitution_key and substitution_key[char] else char for char in text
     )
     st.write(f"Encrypted text: {encrypted_text}")
+
+st.write("")
+st.markdown("---")
+st.write("")
+
+# Challenge Section
+st.header("Challenge: Can You Decrypt This?")
+st.write("Try to figure out the original message without hints!")
+
+# Encrypted message using Atbash Cipher
+encrypted_message = "GSV VMVNB RH XOLHV"
+correct_answer = "THE ENEMY IS CLOSE"
+
+st.write(f"🔐 **Encrypted Message:** `{encrypted_message}`")
+
+# Hidden Hint (Spoiler Section)
+with st.expander("💡 Need a Tip? Click here to reveal!"):
+    st.write("Each letter is substituted by its opposite in the alphabet: A ↔ Z, B ↔ Y, C ↔ X...")
+
+# User input for decryption
+user_guess = st.text_input("Enter your decrypted message").upper()
+
+if user_guess:
+    if user_guess == correct_answer:
+        st.success("✅ Correct! You decrypted the message successfully.")
+    else:
+        st.error("❌ Incorrect. Try again!")

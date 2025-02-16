@@ -1,4 +1,5 @@
 import streamlit as st
+import random
 
 st.set_page_config(page_title="Caesar Cipher", page_icon="🔑")
 
@@ -21,6 +22,8 @@ st.write("2. Replace each letter in the plaintext with the letter that appears [
 st.write("3. If the shift moves past 'Z', it wraps around to the beginning of the alphabet.")
 st.write("For example, with a shift of 3, the word 'HELLO' would be encrypted as 'KHOOR'.")
 
+st.write("### Encoder and Decoder:")
+
 shift = st.slider("Choose shift amount", 1, 25, 3)
 text = st.text_input("Enter text to encrypt")
 if text:
@@ -28,3 +31,19 @@ if text:
         chr(((ord(char) - 97 + shift) % 26) + 97) if char.isalpha() else char for char in text.lower()
     )
     st.write(f"Encrypted text: {encrypted_text}")
+
+st.write("")
+st.markdown("---")
+st.write("")
+
+# Challenge Section
+st.header("Challenge: Can You Decrypt This?")
+
+st.write(f"🔐 **Encrypted Sentence:** `WKLV LV D VHFUHW PHVVDJH`")
+user_guess = st.text_input("Enter your decrypted sentence").upper()
+
+if user_guess:
+    if user_guess == "THIS IS A SECRET MESSAGE":
+        st.success("✅ Correct! You decrypted the sentence successfully.")
+    else:
+        st.error("❌ Incorrect. Try again!")
