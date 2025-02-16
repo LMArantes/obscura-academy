@@ -32,7 +32,7 @@ st.image("assets/sstv-image.png", caption="Image Received via SSTV Transmission"
 st.audio("assets/sstv-audio.wav", format="audio/wav")
 
 st.write(
-    "This audio file represents the sound generated when transmitting the above image via **SSTV Robot 36 mode**. "
+    "This audio file represents the sound generated when transmitting the above image via **SSTV Martin 1**. "
     "If decoded correctly, this sound would reconstruct the image at the receiving end."
 )
 
@@ -58,6 +58,9 @@ st.markdown(
 - **Present Day** - The International Space Station (ISS) still uses SSTV to broadcast images to Earth via HAM radio.
 """
 )
+
+st.image("assets/ISS_sstv.png", caption="An SSTV image received by an amateur station transmitted from the ISS using "
+                                        "the PD-120 mode.", width=250)
 
 st.subheader("How Does SSTV Work?")
 st.write(
@@ -99,7 +102,7 @@ st.write(
 st.title("Convert an Image to SSTV Audio")
 
 st.write(
-    "Upload an image, and it will be converted into an **SSTV Robot 36** transmission signal. "
+    "Upload an image, and it will be converted into an **SSTV** transmission signal. "
     "You can then **listen to the audio transmission** or **download the SSTV audio file** for further decoding."
 )
 
