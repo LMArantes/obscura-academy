@@ -116,4 +116,4 @@ if user_attempt:
 
 # Tip (Spoiler) for users who need help
 with st.expander("💡 Click for a Hint"):
-    st.write("Try checking the capitalized characters**.")
+    st.write("Try checking the capitalized characters.")
