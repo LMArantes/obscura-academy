@@ -6,10 +6,10 @@
 ## About the Project
 Obscura Academy is an interactive **learning platform** designed for **beginners interested in cryptography, steganography, and coding**. Inspired by **ARGs (Alternate Reality Games)** and **internet mysteries**, this academy provides an engaging way to explore encryption, hidden messages, and digital forensics.
 
-- 🔹 **Learn fundamental cryptographic techniques** like the **Caesar cipher, Vigenère cipher, and substitution ciphers**.  
-- 🔹 **Explore steganography**, including **hiding text in images and SSTV encoding**.  
-- 🔹 **Develop coding skills** with **Python, HTML analysis, and cryptographic programming**.  
-- 🔹 **Solve interactive challenges** where users must **decrypt messages, analyze files, and uncover hidden clues**.
+- **Learn fundamental cryptographic techniques** like the **Caesar cipher, Vigenère cipher, and substitution ciphers**.  
+- **Explore steganography**, including **hiding text in images and SSTV encoding**.  
+- **Develop basic coding skills** with **Python and HTML analysis**.  
+- **Solve interactive challenges** where users must **decrypt messages, analyze files, and uncover hidden clues**.
 
 ---
 
