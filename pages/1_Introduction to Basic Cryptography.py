@@ -6,6 +6,8 @@ st.image("assets/cryptography.png")
 
 st.title("Introduction to Basic Cryptography")
 
+st.markdown("---")
+
 st.subheader("What is Cryptography?")
 st.write(
     "Cryptography is the art and science of securing information by converting it into a format that can only be "
