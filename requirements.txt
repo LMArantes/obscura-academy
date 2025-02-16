@@ -10,3 +10,4 @@ pillow
 numpy
 pandas
 fpdf
+python-dotenv
