@@ -49,7 +49,7 @@ vigenere_csv_path = "assets/vigenere-grid.csv"  # Ensure the file is in the work
 vigenere_df = pd.read_csv(vigenere_csv_path, index_col=0)
 st.dataframe(vigenere_df)
 
-st.write("### Encoder and Decoder:")
+st.write("### Encoder:")
 
 key = st.text_input("Enter a keyword").lower()
 text = st.text_input("Enter text to encrypt").lower()
