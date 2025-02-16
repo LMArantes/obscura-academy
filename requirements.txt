@@ -1,0 +1,12 @@
+streamlit
+openai
+exifread
+pypdf2
+mutagen
+stegano
+pysstv
+streamlit_image_comparison
+pillow
+numpy
+pandas
+fpdf
