@@ -6,7 +6,14 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-openai_api_key = os.getenv("OPENAI_API_KEY")  # Securely load API key
+
+# Use Streamlit Secrets for deployment, otherwise fallback to local .env
+if "OPENAI_API_KEY" in st.secrets:
+    openai_api_key = st.secrets["OPENAI_API_KEY"]
+else:
+    from dotenv import load_dotenv
+    load_dotenv()
+    openai_api_key = os.getenv("OPENAI_API_KEY")
 
 # Initialize OpenAI Client
 client = openai.OpenAI(api_key=openai_api_key)
