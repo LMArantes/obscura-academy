@@ -66,4 +66,4 @@ If you’d like to contribute, feel free to **fork the project** and submit **pu
 **[Obscura Academy (Streamlit)](https://obscura-academy.streamlit.app/)**
 
 
-https://img.shields.io/badge/License%3A%20MAL%20v1.0-forestgreen?style=plastic&color=forestgreen&link=https%3A%2F%2Flmarantes.github.io%2FModified-Attribution-License%2F
+[![License: MAL v1.0](https://img.shields.io/badge/License%3A%20MAL%20v1.0-forestgreen?style=plastic&color=forestgreen)](https://lmarantes.github.io/Modified-Attribution-License/)
