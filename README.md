@@ -1,7 +1,7 @@
 # Obscura Academy
 **An interactive platform for learning cryptography, steganography, and coding through hands-on challenges.**
 
-![Obscura Academy Logo](assets/obscura-academy-logo.png)
+<img src="assets/obscura-academy-logo.png" alt="Obscura Academy Logo" width="200">
 
 ## About the Project
 Obscura Academy is an interactive **learning platform** designed for **beginners interested in cryptography, steganography, and coding**. Inspired by **ARGs (Alternate Reality Games)** and **internet mysteries**, this academy provides an engaging way to explore encryption, hidden messages, and digital forensics.
@@ -11,7 +11,6 @@ Obscura Academy is an interactive **learning platform** designed for **beginners
 - **Develop basic coding skills** with **Python and HTML analysis**.  
 - **Solve interactive challenges** where users must **decrypt messages, analyze files, and uncover hidden clues**.
 
----
 
 ## Features
 - **Cryptography Lessons** → Interactive explanations of classic ciphers.  
@@ -21,7 +20,6 @@ Obscura Academy is an interactive **learning platform** designed for **beginners
 - **Interactive Challenges** → Hands-on exercises to test and apply what you've learned.  
 - **Built-in AI Assistant (The Oracle)** → Ask cryptography-related questions and receive interactive challenges.  
 
----
 
 ## Built With
 - **Python** → Core logic for cryptographic functions and challenges.
@@ -32,7 +30,6 @@ Obscura Academy is an interactive **learning platform** designed for **beginners
 - **PyPDF2** → Analyze and extract metadata from PDF files.
 - **OpenAI GPT-4o-mini** → AI-powered cryptography assistant.
 
----
 
 ## Installation & Setup
 To run **Obscura Academy** on your local machine:
@@ -62,10 +59,11 @@ This project was created during the **Kent Hack Enough 2025 Hackathon**.
 
 If you’d like to contribute, feel free to **fork the project** and submit **pull requests**! 
 
----
 
 ## Get Started
 **Run the app or check out the live version here:**  
 
 **[Obscura Academy (Streamlit)](https://obscura-academy.streamlit.app/)**
 
+
+https://img.shields.io/badge/License%3A%20MAL%20v1.0-forestgreen?style=plastic&color=forestgreen&link=https%3A%2F%2Flmarantes.github.io%2FModified-Attribution-License%2F
